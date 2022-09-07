@@ -22,8 +22,9 @@ jobs:
         with:
           org: samsmithnz
           repo: VariablesYAMLTest
-          token: ${{ secrets.PAT }}
+          #token: ${{ secrets.PAT }}
           groups: |
+            Variables/var1.yml
             var2.yml
       - name: Print Environment variables
         run: env | sort
