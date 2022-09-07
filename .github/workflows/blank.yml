@@ -25,7 +25,7 @@ jobs:
         uses: lindluni/actions-variable-groups@v2.1.2
         with:
           org: samsmithnz
-          repo: EYYAMLTest
+          repo: VariablesYAMLTest
           groups: |
             Variables/var1.yml 
       - name: Print Environment
