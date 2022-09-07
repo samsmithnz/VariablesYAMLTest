@@ -22,11 +22,11 @@ jobs:
           echo ${{ env.var1 }} 
           echo ${{ env.var2 }} 
       - name: Inject Variables
-        uses: lindluni/actions-variable-groups@v1.0.0
+        uses: lindluni/actions-variable-groups@v2.1.2
         with:
           org: samsmithnz
           repo: EYYAMLTEST
           groups: |
-            Variables # This is a path in the lindluni/variable-groups repository, so all variable group files in the directory will be injected
+            Variables/var1.yml 
       - name: Print Environment
         run: env | sort
