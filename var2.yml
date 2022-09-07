@@ -1,5 +1,5 @@
 variables:
-  - key: Key1
-    value: Value1
-  - key: Key2
-    value: Value2
+  - key: Key3
+    value: Value3
+  - key: Key4
+    value: Value4
