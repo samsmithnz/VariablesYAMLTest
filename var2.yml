@@ -1,0 +1,5 @@
+variables:
+  - key: Key1
+    value: Value1
+  - key: Key2
+    value: Value2
