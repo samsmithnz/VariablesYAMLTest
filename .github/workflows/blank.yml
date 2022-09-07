@@ -24,7 +24,6 @@ jobs:
       - name: Inject Variables
         uses: lindluni/actions-variable-groups@v2.1.2
         with:
-          org: samsmithnz
           repo: EYYAMLTEST
           groups: |
             Variables/var1.yml 
