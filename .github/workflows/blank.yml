@@ -26,5 +26,4 @@ jobs:
           repo: VariablesYAMLTest
           token: ${{ secrets.PAT }}
           groups: |
-            Variables/var1.yml 
-            var2.yml
+            /var2.yml
