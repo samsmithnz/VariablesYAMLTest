@@ -17,16 +17,14 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Run a multi-line script
-        run: |
-          echo ${{ env.var1 }} 
-          echo ${{ env.var2 }} 
+      - name: Print Environment variables
+        run: env | sort
       - name: Inject Variables
         uses: lindluni/actions-variable-groups@v2.1.2
         with:
           org: samsmithnz
           repo: VariablesYAMLTest
+          token: ${{ secrets.PAT }}
           groups: |
             Variables/var1.yml 
-      - name: Print Environment
-        run: env | sort
+            var2.yml
