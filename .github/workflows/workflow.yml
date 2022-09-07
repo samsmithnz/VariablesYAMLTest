@@ -17,8 +17,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Print Environment variables
-        run: env | sort
       - name: Inject Variables
         uses: lindluni/actions-variable-groups@v2.1.2
         with:
@@ -27,3 +25,5 @@ jobs:
           token: ${{ secrets.PAT }}
           groups: |
             var2.yml
+      - name: Print Environment variables
+        run: env | sort
