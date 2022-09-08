@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
   
 env:
-  ValueA: abc
-  ValueX: xyz
+  KeyA: abc
+  KeyX: xyz
 
 jobs:
   build:
