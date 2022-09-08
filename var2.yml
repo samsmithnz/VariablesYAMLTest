@@ -3,3 +3,4 @@ variables:
     value: Value3
   - key: Key4
     value: Value4
+  - key12: value12
