@@ -22,7 +22,7 @@ jobs:
         with:
           org: samsmithnz
           repo: VariablesYAMLTest
-          #token: ${{ secrets.PAT }} #secrets.PAT is a PAT Token with content:read permission
+          token: ${{ secrets.PAT }} #secrets.PAT is a PAT Token with content:read permission
           groups: |
             Variables/var1.yml
             var2.yml
