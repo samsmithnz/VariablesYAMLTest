@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Inject Variables
-        uses: lindluni/actions-variable-groups@v2.1.2
+        uses: lindluni/actions-variable-groups@v1
         with:
           org: samsmithnz
           repo: VariablesYAMLTest
